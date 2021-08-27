@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>The disabled Attribute</h1>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Hoang" disabled><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Toan">
+    </form>
+
+    <h1>The maxlength & minlength Attributes</h1>
+    <form>
+        <label for="fname2">First name:</label><br>
+        <input type="text" id="fname2" name="fname2" maxlength="50" minlength="1"><br>
+        <label for="lname2">Last name:</label><br>
+        <input type="text" id="lname2" name="lname2" maxlength="50" minlength="1"><br><br>
+        <input type="submit">
+    </form>
+
+    <h1>The min and max Attributes</h1>
+    <form>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </form>
+
+    <h1>The required Attributes</h1>
+    <form>
+        <label for="st">Something:</label><br>
+        <input type="text" id="st" name="st" required><br><br>
+        <input type="submit">
+    </form>
+
+    <h1>The pattern Attribute</h1>
+    <form action="/action_page.php">
+        <label for="country_code">Input something:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter"><br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
