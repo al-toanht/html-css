@@ -1,0 +1,18 @@
+.text-div {
+    text-align: left;
+    border-color: blue;
+    table-layout: fixed;
+}
+
+.text-title {
+    color: blue;
+}
+
+.description {
+    max-width: 500px;
+    max-height: 100px;
+}
+
+td {
+    vertical-align: top;
+}
