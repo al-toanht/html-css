@@ -1,0 +1,45 @@
+h1 {
+    color: #1a85c0;
+    text-shadow: 2px 2px 2px #94A1A6;
+}
+
+h2 {
+    color: #4c95cf;
+}
+
+p,
+div,
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+    color: #1a85c0;
+    font-size: 14px;
+}
+
+p.p1 {
+    color: #745940;
+    font-weight: 700;
+}
+
+p span {
+    color: #7ab6d7;
+    font-weight: 700;
+}
+
+div.l-text {
+    color: #736562;
+    width: 1100px;
+    text-align: justify;
+}
+
+div {
+    font-weight: 500;
+}
+
+div p {
+    text-align: right;
+    font-style: italic;
+}
