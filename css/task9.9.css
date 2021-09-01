@@ -1,0 +1,39 @@
+.group {
+    display: flex;
+    height: 150px;
+}
+
+.example1,
+.example2,
+.example3,
+.example4,
+.example5 {
+    width: 100px;
+    height: 100px;
+    background-color: #E1DED9;
+}
+
+.example1 {
+    box-shadow: -10px -10px 5px -5px #888888;
+    margin-right: 50px;
+}
+
+.example2 {
+    box-shadow: 5px 5px #888888;
+    margin-right: 50px;
+}
+
+.example3 {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.example4 {
+    display: inline-block;
+    box-shadow: 2px -1px 3px 3px #888888;
+}
+
+.example5 {
+    display: inline-block;
+    box-shadow: 0px 0px 4px 4px #888888;
+    margin-left: 50px;
+}
