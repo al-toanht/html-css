@@ -1,14 +1,14 @@
 .border1 {
     width: 355px;
     border-top: 30px solid transparent;
-    border-image: url(Asset1.png);
+    border-image: url(../images/Asset1.png);
     border-image-slice: 70 0 0 0;
 }
 
 .border2 {
     width: 355px;
     border-top: 30px solid transparent;
-    border-image: url(Asset2.png);
+    border-image: url(../images/Asset2.png);
     border-image-slice: 70 0 0 0;
     /* margin-top: -10px; */
 }
