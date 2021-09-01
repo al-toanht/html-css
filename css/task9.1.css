@@ -1,12 +1,12 @@
 div {
     width: 330px;
     height: 250px;
-    background-color: pink;
+    background-color: #EE3C80;
     margin: 50px 0 0 20px
 }
 
 p {
     width: 250px;
-    height: 180px;
-    background-color: gray;
+    height: 200px;
+    background-color: #E2DEDA;
 }
