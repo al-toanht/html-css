@@ -1,0 +1,23 @@
+.border1 {
+    width: 355px;
+    border-top: 30px solid transparent;
+    border-image: url(Asset1.png);
+    border-image-slice: 70 0 0 0;
+}
+
+.border2 {
+    width: 355px;
+    border-top: 30px solid transparent;
+    border-image: url(Asset2.png);
+    border-image-slice: 70 0 0 0;
+    /* margin-top: -10px; */
+}
+
+p {
+    margin-top: -1px;
+    margin-bottom: -14px;
+    width: 353px;
+    height: 200px;
+    border-left: 1px solid;
+    border-right: 1px solid black;
+}
