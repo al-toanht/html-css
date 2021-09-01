@@ -2,6 +2,10 @@ body {
     background-color: #C3C0BE;
 }
 
+div {
+    color: white;
+}
+
 h1 {
     background-color: #E1E2E1;
     color: #66605D;
