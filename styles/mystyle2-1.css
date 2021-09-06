@@ -1,0 +1,16 @@
+th {
+    text-align: left;
+    width: 150px;
+    border-top: 2px solid #ddd;
+    ;
+    border-bottom: 2px solid black;
+    ;
+}
+
+.text-right {
+    text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
