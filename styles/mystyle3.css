@@ -1,0 +1,42 @@
+input[type=text] {
+    width: 20%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #F4F6F9;
+}
+
+.input-1 {
+    position: relative;
+}
+
+.input-1 img {
+    position: absolute;
+    left: 550px;
+    top: 18px;
+}
+
+.input-2 {
+    position: relative;
+}
+
+.input-2 img {
+    position: absolute;
+    left: 550px;
+    top: 18px;
+}
+
+.input-3 {
+    position: relative;
+}
+
+.input-3 img {
+    position: absolute;
+    left: 550px;
+    top: 18px;
+}
+
+.container {
+    text-align: center;
+}
