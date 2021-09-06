@@ -1,0 +1,20 @@
+ul {
+    width: 150px;
+    background-color: #E4E1DE;
+}
+
+ul .a {
+    list-style-type: none;
+}
+
+ul li span {
+    color: #E95082;
+}
+
+ul .c {
+    list-style-type: circle;
+}
+
+ul .d {
+    list-style-type: square;
+}
