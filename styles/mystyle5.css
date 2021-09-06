@@ -1,0 +1,104 @@
+h1 {
+    color: #5E5D5B;
+}
+
+ul {
+    list-style-image: url(../Icon/star.png);
+}
+
+tbody tr th {
+    border: 1px solid #ccc;
+    ;
+}
+
+tbody tr td {
+    border: 1px solid #ccc;
+    ;
+}
+
+thead tr th:first-child {
+    border-radius: 15px 0px 0px;
+    width: 250px;
+}
+
+thead tr th:last-child {
+    border-radius: 0px 15px 0px 0px;
+    border: none;
+    border-bottom: 2px solid #7CABD1;
+}
+
+thead tr th {
+    border-right: 1px solid #ccc;
+    color: white;
+    width: 150px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #8CB7DA;
+    border-bottom: 2px solid #7CABD1;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #DDECF8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #DBE9F1;
+}
+
+tbody tr th {
+    text-align: left;
+}
+
+tbody tr td {
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.input-box {
+    padding: 5px 0px;
+    background-color: white;
+}
+
+.input-box input[type=text] {
+    width: 100%;
+    max-width: 120px;
+    margin-left: 60px;
+}
+
+.input-box select {
+    width: 100%;
+    max-width: 120px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+
+.input-box input[type=radio] {
+    margin-left: 10px;
+}
+
+.login-form {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #cccccc;
+}
+
+.login-form p {
+    position: absolute;
+    top: -28px;
+    font-style: italic;
+    background-color: white;
+}
