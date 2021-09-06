@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+.input-box {
+    margin-bottom: 0px;
+    padding: 7.5px 15px;
+    background-color: white;
+}
+
+.input-box input {
+    width: 100%;
+    max-width: 200px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-box label {
+    color: #645548;
+}
+
+.input-submit {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.login-form p {
+    position: absolute;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #645548;
+    top: -32px;
+    background-color: #cccccc;
+}
+
+.input-submit input {
+    background-color: #645548;
+    color: white;
+    border: 1px solid #645548;
+    padding: 3px 25px;
+    border-radius: 5px;
+}
