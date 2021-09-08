@@ -6,20 +6,20 @@
 }
 
 .login-form {
+    border: 2px solid #cccccc;
+    background-color: white;
+    border-radius: 10px;
     position: relative;
     width: 100%;
     max-width: 300px;
     margin: 20px auto;
-    background-color: white;
     padding: 15px;
-    border: 2px solid #cccccc;
-    border-radius: 10px;
 }
 
 .input-box {
+    background-color: white;
     margin-bottom: 0px;
     padding: 7.5px 15px;
-    background-color: white;
 }
 
 .input-box input {
@@ -27,6 +27,7 @@
     max-width: 200px;
     border: none;
     border-bottom: 1px solid #ccc;
+    outline: none;
 }
 
 .input-box label {
@@ -41,17 +42,17 @@
 .login-form p {
     position: absolute;
     border: 1px solid #cccccc;
+    background-color: #cccccc;
     border-radius: 5px;
     padding: 5px 15px;
     color: #645548;
     top: -32px;
-    background-color: #cccccc;
 }
 
 .input-submit input {
     background-color: #645548;
-    color: white;
     border: 1px solid #645548;
-    padding: 3px 25px;
     border-radius: 5px;
+    color: white;
+    padding: 3px 25px;
 }
