@@ -1,0 +1,18 @@
+body {
+    color: #716759;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.list {
+    float: right;
+    margin-right: 50px;
+}
+
+.list ul {
+    list-style-type: disc;
+}
+
+.text-1 {
+    overflow: auto;
+}
