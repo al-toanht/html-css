@@ -1,10 +1,13 @@
 th {
     text-align: left;
     width: 150px;
+    padding: 10px;
     border-top: 2px solid #ddd;
-    ;
     border-bottom: 2px solid black;
-    ;
+}
+
+td {
+    padding: 10px;
 }
 
 .text-right {
