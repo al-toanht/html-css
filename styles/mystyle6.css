@@ -1,0 +1,124 @@
+.container {
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    color: #ffffff;
+    background: #413f3b url("http://www.htmlandcssbook.com/code-samples/chapter-15/images/bg.jpg");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a {
+    color: #b5c1ad;
+    text-decoration: none;
+}
+
+.grid {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("http://www.htmlandcssbook.com/code-samples/chapter-15/images/bg-header.jpg");
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+    line-height: 100px;
+    margin-bottom: 100px;
+}
+
+.grid img {
+    margin-top: 40px;
+}
+
+.header_nav {
+    float: right;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: right;
+    line-height: 100px;
+}
+
+.wrapper {
+    position: absolute;
+    z-index: 0;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 10;
+    top: 143px;
+    right: -80px;
+}
+
+h1,
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #b5c1ad;
+}
+
+.text-1 {
+    margin-top: 200px;
+    float: right;
+}
+
+.text-2 {
+    width: 200px;
+    margin-top: 240px;
+    float: right;
+}
+
+.intro {
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: #b5c1ad;
+}
+
+h1 {
+    position: absolute;
+    top: 150px;
+    font-size: 240%;
+    right: -250px;
+}
+
+.more-articles {
+    margin-top: 600px;
+    border-top: 1px solid #ffffff;
+}
+
+.more-articles h2 {
+    margin-left: 10px;
+}
+
+.girdmain {
+    display: grid;
+    padding: 0;
+    margin-top: -40px;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 50px 50px 50px;
+    grid-gap: 15px;
+}
+
+.more-articles p {
+    border-bottom: 1px solid #807c72;
+    padding: 5px 0px 15px 0px;
+    font-size: 80%
+}
