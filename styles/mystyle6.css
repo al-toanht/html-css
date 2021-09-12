@@ -27,7 +27,7 @@ a {
 
 .header {
     background-image: url("http://www.htmlandcssbook.com/code-samples/chapter-15/images/bg-header.jpg");
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     height: 100px;
     position: fixed;
     top: 0px;
@@ -119,6 +119,6 @@ h1 {
 
 .more-articles p {
     border-bottom: 1px solid #807c72;
-    padding: 5px 0px 15px 0px;
+    padding: 5px 0px 15px;
     font-size: 80%
 }
